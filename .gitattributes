@@ -1,0 +1,11 @@
+# Project-specific overrides
+# Text file normalization
+dist/* linguist-vendored
+src/** linguist-detectable
+examples/site/**/*.html linguist-vendored
+*.json linguist-detectable=false
+
+*.md linguist-documentation
+*.gif binary
+*.yml linguist-detectable=false
+yarn.lock linguist-generated

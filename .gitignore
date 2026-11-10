@@ -1,0 +1,8 @@
+.cache/
+.DS_Store
+.pnpm-store/
+*.tgz
+*.log
+.next/
+coverage/
+yarn-error.log*
